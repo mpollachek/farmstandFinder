@@ -15,6 +15,7 @@ import NaturePeopleIcon from '@mui/icons-material/NaturePeople';
 import EmailIcon from '@mui/icons-material/Email';
 import LocalAtmIcon from "@mui/icons-material/LocalAtm";
 import '../css/Header.css'
+import SheepLogo from '../assets/sheep.jpg';
 
 
 const Header = () => {
@@ -26,16 +27,22 @@ const Header = () => {
   const toggle = () => setIsOpen(!isOpen);
 
   return(
-    <Navbar dark sticky="top" expand="md"
+    <Navbar dark sticky="top" expand="md" className='d-flex'
     style={{overflow: 'visible'}}
     >
-      <NavbarBrand className="ms-5" href="/">
+      <div className='ms-5 align-items-center'>
+      <NavbarBrand className="brand" href="/"
+      >
         <img
-          //src={AWUlogo}
-          alt="All Workers Union Logo"
+          src={SheepLogo}
+          alt="Farmstand Finder Logo"
           className="float-start brand"
         />
+        {/* <NavItem className='brand'> */}
+          <h3 className='brandname-1'>Farmstand <span className='brandname-2'>Finder</span></h3>
+        {/* </NavItem> */}
       </NavbarBrand>
+      </div>
       <NavbarToggler onClick={() => setMenuOpen(!menuOpen)} />
       <Collapse isOpen={menuOpen} navbar>
         <Nav className="ms-auto" navbar>
@@ -63,13 +70,13 @@ const Header = () => {
               <NaturePeopleIcon className="navicons" />
               About Us
             </NavLink>
+            </NavItem>
             <NavItem onClick={() => setMenuOpen(!menuOpen)}>
             <NavLink className="nav-link navfont" to="/Contact">
               <EmailIcon className="navicons" />
               Contact
             </NavLink>
-          </NavItem>
-          </NavItem>
+          </NavItem>          
           <NavItem onClick={() => setMenuOpen(!menuOpen)}>
             <NavLink className="nav-link navfont" to="/Donate">
               <LocalAtmIcon className="navicons" />

@@ -1,5 +1,5 @@
 .navbar-dark {
-  background-image: linear-gradient(to right, #004cff, #ffffff, #ff0000);
+  background-image: linear-gradient(to right, #910D01, #472C1F, #07350c);
   min-height: 8rem;
   margin: 0 !important;
   width: 100% !important;
@@ -30,4 +30,12 @@ text-shadow: 0 0 3px #000000, 0 0 5px #000000;
   .navbar-expand-md .navbar-collapse {
       height: auto !important;
   }
+}
+
+.brandname-1 {
+  color: rgb(26, 255, 0)
+}
+
+.brandname-2 {
+  color: rgb(20, 200, 249)
 }
