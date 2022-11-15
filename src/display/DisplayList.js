@@ -2,12 +2,15 @@ import { Col, Row } from 'reactstrap';
 import DisplayCard from './DisplayCard';
 import Loading from '../components/Loading';
 import Error from '../components/Error';
+import { selectFeaturedFarmstands, selectAllFarmstands } from '../farmstands/farmstandFilter';
 import { FARMSTANDS } from '../testData/FARMSTANDS';
 
 const DisplayList = () => {
-    const items = FARMSTANDS;
+    const items = selectFeaturedFarmstands();
+    console.log("featured farmstands: " + items);
   return(
-    <Row>
+    <Row className='text-center'>
+        <h1>Featured Farmstands</h1>
         {items.map((item, id) => {
           const { featured, isLoading, errMsg } = item;
           if (isLoading) {

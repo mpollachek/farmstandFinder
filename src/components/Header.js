@@ -28,18 +28,18 @@ const Header = () => {
 
   return(
     <Navbar dark sticky="top" expand="md" className='d-flex'
-    style={{overflow: 'visible'}}
+    style={{overflow: 'visible', display: 'inline-block' }}
     >
-      <div className='ms-5 align-items-center'>
-      <NavbarBrand className="brand" href="/"
+      <div className='ms-5' >
+      <NavbarBrand className="brand ms-5 align-items-center" href="/"
       >
         <img
           src={SheepLogo}
           alt="Farmstand Finder Logo"
-          className="float-start brand"
+          className="float-start brand mt-2 me-2"
         />
-        {/* <NavItem className='brand'> */}
-          <h3 className='brandname-1'>Farmstand <span className='brandname-2'>Finder</span></h3>
+        {/* <NavItem> */}
+          <h3 className= 'brandname-1'>Farmstand <span className='brandname-2'>Finder</span></h3>
         {/* </NavItem> */}
       </NavbarBrand>
       </div>

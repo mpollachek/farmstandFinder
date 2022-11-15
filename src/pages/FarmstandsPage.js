@@ -1,9 +1,14 @@
-
+import { Container, Row } from 'reactstrap';
+import FarmstandList from '../farmstands/FarmstandsList';
 
 const FarmstandsPage = () => {
 
   return(
-    <h1>FarmstandsPage Page</h1>
+    <Container>
+      <Row>
+        <FarmstandList />
+      </Row>
+    </Container>
   )
 }
 

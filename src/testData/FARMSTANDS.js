@@ -1,24 +1,24 @@
-import { queryByTestId } from '@testing-library/react';
-import farm_animals_1 from '../assets/farm_animals_1.jpg';
+// import { queryByTestId } from '@testing-library/react';
+// import farm_animals_1 from '../assets/farm_animals_1.jpg';
 import farm_animals_2 from '../assets/farm_animals_2.jpg';
 import homemade_goods_1 from '../assets/homemade_goods_1.jpg';
-import homemade_goods_2 from '../assets/homemade_goods_2.jpg';
-import homemade_goods_3 from '../assets/homemade_goods_3.jpg';
+// import homemade_goods_2 from '../assets/homemade_goods_2.jpg';
+// import homemade_goods_3 from '../assets/homemade_goods_3.jpg';
 import produce_market_1 from '../assets/produce_market_1.jpg';
-import produce_market_2 from '../assets/produce_market_2.jpg';
-import produce_market_3 from '../assets/produce_market_3.jpg';
-import produce_market_4 from '../assets/produce_market_4.jpg';
-import produce_market_5 from '../assets/produce_market_5.jpg';
-import produce_market_6 from '../assets/produce_market_6.jpg';
+// import produce_market_2 from '../assets/produce_market_2.jpg';
+// import produce_market_3 from '../assets/produce_market_3.jpg';
+// import produce_market_4 from '../assets/produce_market_4.jpg';
+// import produce_market_5 from '../assets/produce_market_5.jpg';
+// import produce_market_6 from '../assets/produce_market_6.jpg';
 import produce_market_7 from '../assets/produce_market_7.jpg';
-import produce_market_8 from '../assets/produce_market_8.jpg';
-import stand_1 from '../assets/stand_1.jpg'
-import stand_2 from '../assets/stand_2.jpg'
-import stand_3 from '../assets/stand_3.jpg'
-import stand_4 from '../assets/stand_4.jpg'
-import stand_5 from '../assets/stand_5.jpg'
-import stand_6 from '../assets/stand_6.jpg'
-import stand_7 from '../assets/stand_7.jpg'
+// import produce_market_8 from '../assets/produce_market_8.jpg';
+// import stand_1 from '../assets/stand_1.jpg'
+// import stand_2 from '../assets/stand_2.jpg'
+// import stand_3 from '../assets/stand_3.jpg'
+// import stand_4 from '../assets/stand_4.jpg'
+// import stand_5 from '../assets/stand_5.jpg'
+// import stand_6 from '../assets/stand_6.jpg'
+// import stand_7 from '../assets/stand_7.jpg'
 
 export const FARMSTANDS = [
   {

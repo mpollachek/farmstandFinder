@@ -12,8 +12,8 @@ import {
 } from 'reactstrap';
 
 
-const FarmstandCard = ({farmstand}) => {
-  const { id, image, name } = farmstand;
+const FarmstandCard = ({ item }) => {
+  const { id, image, name } = item;
   return (
     <Card>
       <CardImg 
