@@ -9,8 +9,8 @@ const FarmstandList = () => {
     const items = selectAllFarmstands();
     console.log("featured farmstands: " + items);
   return(
-    <Row className='text-center'>
-        <h1>All Farmstands Within XXX Miles</h1>
+    <Row>
+        <h1 className='text-center'>All Farmstands Within XXX Miles</h1>
         {items.map((item, id) => {
           const { isLoading, errMsg } = item;
           if (isLoading) {

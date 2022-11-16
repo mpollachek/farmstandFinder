@@ -27,7 +27,7 @@ function App() {
       <Route path='farmstands' element={<FarmstandsPage />} />
       <Route path='farmstands/:farmstandId' 
       element={<FarmstandDetailPage /> } /> 
-      <Route path='maps' element={<MapsPage /> } />
+      <Route path='map' element={<MapsPage /> } />
     </Routes>
     <Footer />
   </div>
