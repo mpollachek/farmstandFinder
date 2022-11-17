@@ -1,9 +1,9 @@
 import { Col, Row } from 'reactstrap';
 import DisplayCard from './DisplayCard';
-import Loading from '../components/Loading';
-import Error from '../components/Error';
-import { selectFeaturedFarmstands, selectAllFarmstands } from '../farmstands/farmstandFilter';
-import { FARMSTANDS } from '../testData/FARMSTANDS';
+import Loading from '../../components/Loading';
+import Error from '../../components/Error';
+import { selectFeaturedFarmstands, selectAllFarmstands } from '../../farmstands/farmstandFilter';
+import { FARMSTANDS } from '../../testData/FARMSTANDS';
 
 const DisplayList = () => {
     const items = selectFeaturedFarmstands();

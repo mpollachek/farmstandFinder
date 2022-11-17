@@ -10,11 +10,13 @@ import {
   CardFooter,
   CardImgOverlay
 } from 'reactstrap';
+import { Link } from 'react-router-dom';
 
 
 const FarmstandCard = ({ item }) => {
   const { id, image, name } = item;
   return (
+    <Link to={`../farmstands/${id}`}>
     <Card>
       <CardImg 
         width='100%'
@@ -25,6 +27,7 @@ const FarmstandCard = ({ item }) => {
         <CardTitle>{name}</CardTitle>
       </CardImgOverlay>
   </Card>
+  </Link>
   );
 }
 
