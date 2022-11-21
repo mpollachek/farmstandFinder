@@ -11,7 +11,7 @@ import '../css/MapsPage.css';
 const MapsPage = () => {
   return(
     <Container className='full-width'>
-      <SubHeader current='Maps' />
+      {/* <SubHeader current='Maps' /> */}
       <Row className='full-width'>
         <Map />
       </Row>
